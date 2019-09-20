@@ -1,9 +1,13 @@
 # Algorithms-and--Analysis-AS1
 Assignment 1 : Basic sorting Algorithm
+
 Implementation include:
+
   • Singly linked list: 
-  • Sorted (singly) linked list
-  • Binary search tree.
+
+	• Sorted (singly) linked list
+
+	• Binary search tree.
   
  Each of them support the following operations:
 • Create an empty multiset (implemented as a constructor that takes zero arguments).
