@@ -52,14 +52,14 @@ Operations to perform on the implemented multiset abstract data type are specifi
 
     <operation> [arguments] 
 	
-where operation is one of fA, S, RA, RO, P, Qg and arguments is for optional arguments of some of the operations. The operations take the following form:
+where operation is one of {A, S, RA, RO, P, Q} and arguments is for optional arguments of some of the operations. The operations take the following form:
 	
 	• A <element> { add element into the multiset.
 	• S <element> { search for the number of instances that element have in the multiset and prints this number out. See below for the required format.
 	• RA <element> { delete all instances of element from the multiset.
 	• RO <element> { delete one instance of element from the multiset.
-	• P { prints the contents of the multiset. See below for the required format. The elements can be printed in any order.
-	• Q { quits the program
+	• P - prints the contents of the multiset. See below for the required format. The elements can be printed in any order.
+	• Q - quits the program
         
 The format of the output of a search operation should take the form:
         
