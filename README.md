@@ -2,20 +2,25 @@
 Assignment 1 : Basic sorting Algorithm
 Marks: 13/13
 
-Objectives
+1.Objectives
+
 There are two key objectives for this project:
 
 • Use a number of fundamental data structures to implement the Multiset abstract data type.
 • Evaluate and contrast the performance of the data structures with respect to different usage scenarios and input data.
 
-Background
+2.Background
+
 Multisets, also known as bags, are an important abstract data type. Sets are an unordered collection of elements with unique values. A multiset is a set that can have repeated values.
 	
 		c a b a c a
 Figure 1: Example of a multiset of characters.
+
 In this assignment, you will implement the multiset abstract data type using a number of basicdata structures and evaluate their performance.
 
-Implementation include:
+3. Implementation 
+
+include:
 
   	• Singly linked list: 
 
@@ -35,6 +40,7 @@ Implementation include:
 • Singly linked list. Nodes of the linked list should store an element and the number of instances of that element in the multiset.
 
 • Sorted singly linked list. The (singly) linked list should always be maintained in ascending order after any operation, and nodes of the linked list should store an element and the number of instances of that element in the multiset. Operations that can take advantage of, or need to maintain, the ascending ordering of the list should do so. These include:
+
 	-adding an element;
  	-searching for an element;
  	-removal of element(s).
@@ -63,17 +69,18 @@ If element does not exist in the multiset, then the 0 should be the number of in
         <element> | <number of instances in the multiset>
 As an example of the operations, consider the output from the following list of operations:
 
-A robot
-A f o r tun e
-A macbook
-A robot
-S robot
-S book
-A macbook
-A macbook
-A f o r tun e
-RO f o r tun e
-P Q
+	A robot
+	A f o r tun e
+	A macbook
+	A robot
+	S robot
+	S book
+	A macbook
+	A macbook
+	A fortune
+	RO fortune
+	P 
+	Q
 
 The output from the two search operations (S robot, S book) should be:
         
