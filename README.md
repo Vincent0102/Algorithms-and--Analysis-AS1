@@ -1,11 +1,14 @@
 # Algorithms-and--Analysis-AS1
-Assignment 1 : Basic sorting Algorithm		Marks: 13/13
+Assignment 1 : Basic sorting Algorithm
+
+Marks: 13/13
 
 1.Objectives
 
 There are two key objectives for this project:
 
 • Use a number of fundamental data structures to implement the Multiset abstract data type.
+
 • Evaluate and contrast the performance of the data structures with respect to different usage scenarios and input data.
 
 2.Background
