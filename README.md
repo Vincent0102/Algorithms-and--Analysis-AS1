@@ -41,5 +41,36 @@ where operation is one of fA, S, RA, RO, P, Qg and arguments is for optional arg
 	• RO <element> { delete one instance of element from the multiset.
 	• P { prints the contents of the multiset. See below for the required format. The elements can be printed in any order.
 	• Q { quits the program
-  
-  For more detail read assignment1.pdf
+        
+The format of the output of a search operation should take the form:
+        
+        <element> <number of instances in the multiset>
+If element does not exist in the multiset, then the 0 should be the number of instances returned. The print operation should output a number of lines. Each line specifies an element and the number of instances of it in the multiset:
+        
+        <element> | <number of instances in the multiset>
+As an example of the operations, consider the output from the following list of operations:
+
+A robot
+A f o r tun e
+A macbook
+A robot
+S robot
+S book
+A macbook
+A macbook
+A f o r tun e
+RO f o r tun e
+P Q
+
+The output from the two search operations (S robot, S book) should be:
+        
+        robot 2
+        book 0
+        
+The output from the print operation (P) should be:
+        
+        robot | 2
+        fortune | 1
+        macbook | 3
+       
+For more detail read assignment1.pdf
