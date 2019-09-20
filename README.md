@@ -3,7 +3,7 @@ Assignment 1 : Basic sorting Algorithm
 
 Marks: 13/13
 
-1.Objectives
+# 1.Objectives
 
 There are two key objectives for this project:
 
@@ -11,7 +11,7 @@ There are two key objectives for this project:
 
 • Evaluate and contrast the performance of the data structures with respect to different usage scenarios and input data.
 
-2.Background
+# 2.Background
 
 Multisets, also known as bags, are an important abstract data type. Sets are an unordered collection of elements with unique values. A multiset is a set that can have repeated values.
 	
@@ -20,7 +20,7 @@ Figure 1: Example of a multiset of characters.
 
 In this assignment, you will implement the multiset abstract data type using a number of basicdata structures and evaluate their performance.
 
-3. Implementation 
+# 3. Implementation 
 
 include:
 
