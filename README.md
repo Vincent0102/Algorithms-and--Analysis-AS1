@@ -1,6 +1,5 @@
 # Algorithms-and--Analysis-AS1
-Assignment 1 : Basic sorting Algorithm
-Marks: 13/13
+Assignment 1 : Basic sorting Algorithm		Marks: 13/13
 
 1.Objectives
 
